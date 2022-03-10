@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+  }
+
+a{
+    padding: 25px 10px;
+}
+img {
+    width: 250px;
+}
+
+.title {
+    display: none;
+}
+
+.searchPhoto{
+    width: 500px;
+    height: 60px;
+    border-radius: 5px;
+    border: 2px solid rgb(155, 155, 155);
+    margin: 50px auto 20px;
+    display: flex;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.photoGalleryContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+
+@media(min-width:768px){
+    .searchPhoto{
+        font-size: 20px; 
+        height: 50px;
+        }
+}
+
+@media(min-width:1025px){
+    img{
+        width: 100%;
+    }
+    .photoGalleryContainer{
+    margin-right: 150px;
+    margin-left: 150px;
+    }
+    
+}
+
+@media(min-width:1439px){
+    .photoGalleryContainer{
+        margin-right: 200px;
+        margin-left: 200px;
+        }
+}
